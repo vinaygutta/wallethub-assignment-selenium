@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+	<test name="chrome">
+		<listeners>
+			<listener class-name="com.wallethub.listeners.TestListener" />
+		</listeners>
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.wallethub.tests.FBTests" />
+			<class name="com.wallethub.tests.LoginTests" />
+			<class name="com.wallethub.tests.ReviewTests">
+				<!-- <methods>
+					<include name="submitReviewFourStars" />
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+	<!-- <test name="LoginFF"> <listeners> <listener class-name="com.wallethub.listeners.TestListener" 
+		/> </listeners> <parameter name="browser" value="firefox" /> <classes> <class 
+		name="com.wallethub.tests.FBTests" /> <class name="com.wallethub.tests.LoginTests" 
+		/> <class name="com.wallethub.tests.ReviewTests"> <methods> <include name="submitReviewFourStars" 
+		/> </methods> </class> </classes> </test> -->
+</suite> <!-- Suite -->

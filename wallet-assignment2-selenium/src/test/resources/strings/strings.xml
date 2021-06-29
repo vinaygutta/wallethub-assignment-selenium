@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Profile Page -->
+	<string name="profile_page_heading">theautomation tester's Recommendations</string>
+	<string name="recommended_name">Test Insurance Company</string>
+
+
+	<!-- Review Page -->
+	<string name="d">M31.326 12.965l-8.918 6.52 3.372 10.567-8.918-6.52-8.993 6.52 3.447-10.567-8.993-6.52h11.091l3.447-10.567 3.372 10.567h11.091z</string>
+	<string name="fill">#4ae0e1</string>
+</resources>
